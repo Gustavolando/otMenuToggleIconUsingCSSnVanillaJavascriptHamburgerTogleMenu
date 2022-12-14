@@ -30,13 +30,11 @@ body {
 
 #toggle.active::before {
   transform: rotate(135deg);
-  /* transform: translateY(0); */
   box-shadow: none;
 }
 
 #toggle.active::after {
   transform: rotate(-135deg);
-  /* transform: translateY(0); */
 }
 
 #toggle::before {
